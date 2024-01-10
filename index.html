@@ -648,7 +648,7 @@
         >
           Explore Razorpay Business Banking
         </h2>
-        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-20"></div>
         <!-- main feature box -->
         <div class="relative w-full min-h-[440px] flex">
           <img
@@ -665,35 +665,85 @@
           />
 
           <!-- content box -->
-          <div>
+          <div
+            class="w-full flex min-h-[460px] bg-[#181c2e] border border-slate-600 rounded-md relative p-10 py-12 z-20"
+          >
             <!-- left part -->
-            <div>
-              <h3>
+            <div
+              class="flex flex-col justify-between w-full h-full items-start z-20"
+            >
+              <h3
+                class="font-mullish text-[28px] text-white leading-10 font-bold max-w-[500px]"
+              >
                 Manage your company’s finances with
-                <img src="images/razorpayX.svg" alt="" />
-                <span>Business Banking</span>
+                <img
+                  src="images/razorpayX.svg"
+                  alt=""
+                  loading="lazy"
+                  width="168px"
+                  height="32px"
+                  class="inline"
+                />
+                <span class="text-greenLight">Business Banking</span>
               </h3>
-              <ul>
-                <li>
-                  <i></i><span>Open a fully digital current account</span>
+              <ul class="space-y-2">
+                <li class="font-mullish text-white flex items-center space-x-2">
+                  <i data-feather="check" class="text-greenLight"></i
+                  ><span>Open a fully digital current account</span>
                 </li>
-                <li>
-                  <i></i><span>Automate payables & compliment payments</span>
+                <li class="font-mullish flex items-center space-x-2 text-white">
+                  <i data-feather="check" class="text-greenLight"></i
+                  ><span>Automate payables & compliment payments</span>
                 </li>
-                <li>
-                  <i></i
+                <li class="font-mullish flex items-center space-x-2 text-white">
+                  <i data-feather="check" class="text-greenLight"></i
                   ><span>Simplify and track spends with Corporate cards</span>
                 </li>
-                <li><i></i><span>View financial insights at a glance</span></li>
+                <li class="font-mullish flex items-center space-x-2 text-white">
+                  <i data-feather="check" class="text-greenLight"></i
+                  ><span>View financial insights at a glance</span>
+                </li>
               </ul>
-              <div>
-                <button>Sign Up</button>
+              <div class="flex flex-row w-full items-center space-x-4">
+                <button
+                  class="relative bg-lightBlue md:pr-[90px] justify-start items-center text-white flex hover:bg-lightBlue500 transition-all duration-200 font-bold rounded-md font-mullish py-[14px] px-[18px] leading-[1.2]"
+                >
+                  Sign Up
+                  <div
+                    class="bg-greenLight absolute w-12 h-[60px] right-6 skew-x-[20deg] flex items-center justify-center"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      focusable="false"
+                      class="w-[20px] h-[20px] -skew-x-[20deg]"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                      ></path>
+                    </svg>
+                  </div>
+                </button>
                 <!-- hyperlink know more -->
-                <div><a href="">Know More</a><i></i></div>
+                <div class="flex items-center cursor-pointer group">
+                  <a
+                    href="#"
+                    class="font-mullish text-lightBlue500 font-bold group-hover:text-lightBlue transition-all duration-200"
+                    >Know More</a
+                  ><i
+                    data-feather="chevron-right"
+                    class="w-4 h-4 text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
+                  ></i>
+                </div>
               </div>
             </div>
             <!-- background image -->
-            <img src="images/buisness-banking.png" alt="" />
+            <img
+              src="images/buisness-banking.png"
+              alt=""
+              loading="lazy"
+              class="absolute max-w-[620px] right-0 bottom-[6px]"
+            />
           </div>
         </div>
       </div>
